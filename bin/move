@@ -15,3 +15,4 @@ pos = gets.strip
 idx = input_to_index(pos)
 
 move(board, idx)
+display_board(board)
