@@ -10,6 +10,6 @@ puts "Welcome to Tic Tac Toe!"
 
 puts "Where would you like to move? (reply with position)"
 
-pos = gets.chomp
+pos = gets.strip
 
 idx = input_to_index(pos)
