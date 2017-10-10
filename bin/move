@@ -12,7 +12,7 @@ puts "Where would you like to move? (reply with position)"
 
 pos = gets.strip
 
-idx = input_to_index(pos)
+index = input_to_index(pos)
 
-move(board, idx)
+move(board, index)
 display_board(board)
